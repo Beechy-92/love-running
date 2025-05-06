@@ -24,6 +24,10 @@ h1, h2, h3 {
     color: #252525;
   }
 
+  .hidden-heading {
+    display: none;
+  }
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -157,6 +161,15 @@ h1 {
 
 #times h3 {
   color: #fafafa;
+}
+
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
 }
 
 /* Footer */
